@@ -1,0 +1,66 @@
+/*Barra de rolagem */
+::-webkit-scrollbar{
+    background-color: #212529;
+    border: 3px solid #212529;
+    border-radius: ;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 4px solid;
+    border-radius: 10px;
+    background-color:white;
+}
+
+/*Barra de Navegação*/
+header{
+  box-shadow: 3px 3px 15px black;
+}
+
+.active{
+  background-color: #0F4C75;
+  border-radius: 5px;
+}
+
+.nav-link, .dropdown-item{
+  color: white !important;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: #3282B8 !important;
+  border-radius: 5px;
+  color: white !important;
+}
+/*Area do Centro*/
+
+.bg-imagem{
+  height: 48vw;
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+  background:no repeat;
+  background-size:cover
+}
+
+.bg-imagem p{
+  font-size: 4vw;
+  text-shadow:4px 4px 8px black;
+}
+#card{
+  transition: 0.3s all;
+}
+
+#card:hover{
+  transform: scale(1.1);
+}
+
+/*Estilo Agenda*/
+#agenda th{
+  font-size: 2vw;
+}
+
+#agenda td{
+  width: calc(100% / 7) ;
+  height: calc(100% / 5)
+}
+
+#agenda td.bg-secondary{
+  color: white;
+}
